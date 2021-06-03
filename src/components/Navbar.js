@@ -6,7 +6,7 @@ const Navbar = () =>{
     return(
         <nav className="navbar">
             <div className="nav-center">
-                <Link to ="/"> {/*links to homepage when clicking on logo */}
+                <Link to ="/"> 
                     <img src={logo} alt="cocktail logo" className="logo">
                     </img>
                 </Link>

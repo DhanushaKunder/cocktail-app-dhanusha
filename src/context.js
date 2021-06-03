@@ -42,9 +42,11 @@ const AppProvider = ({ children})=>{
             setLoading([])
         }
     },[searchTerm])
+
     useEffect(() =>{
         fetchDrinks()
     }, [searchTerm, fetchDrinks])
+    
     return(
         <AppContext.Provider
             value={{
